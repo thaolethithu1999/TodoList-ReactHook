@@ -19,7 +19,7 @@ function Footer() {
   };
 
   const deleteTodo = () => {
-    setTodos(newTodosComplete());
+    setTodos(newTodosComplete());// phan tu chua duoc check duoc cap nhat lại vao todos
     setCheckAll(false);
   };
 
